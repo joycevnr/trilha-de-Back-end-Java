@@ -402,7 +402,9 @@ for (int numero : numeros) {
 - **Nomes de Classes, Métodos e Variáveis:**
   - Classes: `PascalCase` (e.g., `MinhaClasse`)
   - Métodos e Variáveis: `camelCase` (e.g., `meuMetodo`, `minhaVariavel`)
-
+  -  Método escrito no infinitivo
+  - Constantes são escritas em CAIXA ALTA e são representados pela palavra reservada `final`
+  - Variável é uma identificação de um espaço em memória utilizado pelo nosso programa. 
 ### 8.2. Comentários e Documentação
 - **Comentários de Linha e Bloco:**
   ```java
