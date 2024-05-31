@@ -9,5 +9,16 @@ public class MinhaClasse{ //classe executável tem o método main: tem a capacid
 
         final String BR = "Brasil"; //final- variável que não é alterável, a variável toda em maiúscula nunca é alterada
  
+        String concatenacao = "?";
+        
+        concatenacao = "1" + 1 + 1 + 1; //só concatenou: 1111
+        System.out.println(concatenacao);
+       
+        concatenacao = 1 + "1" + 1 + 1; //só concatenou: 1111 - quando ele detecta uma string ele só concatena
+        System.out.println(concatenacao);
+        
+        concatenacao = "1" + ( 1 + 1 + 1 ); // 13
+        System.out.println(concatenacao);
+        
     }
 }
