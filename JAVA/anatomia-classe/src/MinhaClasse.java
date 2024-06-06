@@ -19,6 +19,19 @@ public class MinhaClasse{ //classe executável tem o método main: tem a capacid
         
         concatenacao = "1" + ( 1 + 1 + 1 ); // 13
         System.out.println(concatenacao);
+        int numero = 5;
+
+        System.out.println(numero ++);//ainda não soma +1 quando imprimi, só soma após imprimir
+        System.out.println(++ numero);
+        
+        //Operador ternário
+        int a, b;
+        a = 6;
+        b = 6;
+
+        String resultado = a==b ? "verdadeiro" : "falso";
+        System.out.println(resultado);
+
         
     }
 }
