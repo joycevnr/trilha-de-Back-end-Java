@@ -148,7 +148,8 @@ if (numero > 5) {
 
 ## 3. Conceitos Avançados de Programação
 
-### 3.1. Métodos
+### 3.1. Métodos: todas as ações das aplicações são consideradas métodos
+
 #### Definindo e Chamando Métodos
 ```java
 public class ExemploMetodos {
