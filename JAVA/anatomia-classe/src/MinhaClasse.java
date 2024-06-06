@@ -31,6 +31,10 @@ public class MinhaClasse{ //classe executável tem o método main: tem a capacid
 
         String resultado = a==b ? "verdadeiro" : "falso";
         System.out.println(resultado);
+        
+        // relacional
+        boolean simNao = a == b;
+        System.out.println("a é iagual a b? " + simNao);
 
         
     }
