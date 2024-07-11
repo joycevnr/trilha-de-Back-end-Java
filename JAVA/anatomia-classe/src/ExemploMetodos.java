@@ -4,6 +4,7 @@ public class ExemploMetodos {
     public static void metodoEstatico() {
         System.out.println("Este é um método estático.");
     }
+    //static faz um método ou variável pertencer à classe ao invés de às instâncias
     
     // Método não estático (ou de instância)
     public void metodoNaoEstatico() {
