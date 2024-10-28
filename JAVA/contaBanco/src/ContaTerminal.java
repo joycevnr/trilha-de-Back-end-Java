@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class ContaTerminal {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         double saldo = 110.20;
         

@@ -18,6 +18,7 @@ public class ExemploMetodos {
         // Criando uma instância da classe para chamar o método não estático
         ExemploMetodos exemplo = new ExemploMetodos();
         exemplo.metodoNaoEstatico();
+
     }
 }
 

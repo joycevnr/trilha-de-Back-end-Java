@@ -14,6 +14,7 @@ public class ResultadoEscolar {
     public static void ternario() {
         int nota = 7;
         String resultado = nota >= 7 ? "Aprovado" : "Reprovado";
+        Thread.dumpStack();
         System.out.println(resultado);
 
     }
@@ -37,9 +38,7 @@ public class ResultadoEscolar {
             System.out.println("Indefinite");
 
         }
-    
     }
-
     public static void main(String[] args) {
         condicionalComposta();
         ternario();
