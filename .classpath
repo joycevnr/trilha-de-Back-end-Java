@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="JAVA/anatomia-classe/src"/>
+	<classpathentry kind="src" path="JAVA/contaBanco/src"/>
+	<classpathentry kind="src" path="JAVA/condicionais/src"/>
+	<classpathentry kind="src" path="JAVA/repeticao/src"/>
+	<classpathentry kind="src" path="JAVA/excecoes/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

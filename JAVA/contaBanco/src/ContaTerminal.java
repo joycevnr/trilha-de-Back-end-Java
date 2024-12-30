@@ -11,6 +11,7 @@ public class ContaTerminal {
         
         System.out.println("Digite o número da sua conta");
         String numero = scanner.next();//tipo string
+        Thread.dumpStack();
 
         System.out.println("Por favor, digite o número da Agência !");
         int agencia = scanner.nextInt();
